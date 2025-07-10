@@ -22,7 +22,7 @@ export const calendarData = [
     trackLengthKm: 6.174,
     laps: 50,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.05,
     raceTimeType: 'night'
   },
   {
@@ -35,7 +35,7 @@ export const calendarData = [
     trackLengthKm: 5.278,
     laps: 58,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.30,
     raceTimeType: 'day'
   },
   {
@@ -48,7 +48,7 @@ export const calendarData = [
     trackLengthKm: 5.807,
     laps: 53,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.65,
     raceTimeType: 'day'
   },
   {
@@ -60,8 +60,8 @@ export const calendarData = [
     date: '21/04/2025',
     trackLengthKm: 5.451,
     laps: 56,
-    sprintRace: false,
-    wetRacePredictor: 0.01,
+    sprintRace: true,
+    wetRacePredictor: 0.35,
     raceTimeType: 'day'
   },
   {
@@ -73,8 +73,8 @@ export const calendarData = [
     date: '05/05/2025',
     trackLengthKm: 5.412,
     laps: 57,
-    sprintRace: false,
-    wetRacePredictor: 0.01,
+    sprintRace: true,
+    wetRacePredictor: 0.40,
     raceTimeType: 'day'
   },
   {
@@ -87,7 +87,7 @@ export const calendarData = [
     trackLengthKm: 4.909,
     laps: 63,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.45,
     raceTimeType: 'day'
   },
   {
@@ -100,7 +100,7 @@ export const calendarData = [
     trackLengthKm: 3.337,
     laps: 78,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.50,
     raceTimeType: 'day'
   },
   {
@@ -113,7 +113,7 @@ export const calendarData = [
     trackLengthKm: 4.361,
     laps: 70,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.70,
     raceTimeType: 'day'
   },
   {
@@ -126,7 +126,7 @@ export const calendarData = [
     trackLengthKm: 4.657,
     laps: 66,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.25,
     raceTimeType: 'day'
   },
   {
@@ -139,7 +139,7 @@ export const calendarData = [
     trackLengthKm: 4.326,
     laps: 71,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.60,
     raceTimeType: 'day'
   },
   {
@@ -152,7 +152,7 @@ export const calendarData = [
     trackLengthKm: 5.891,
     laps: 52,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.55,
     raceTimeType: 'day'
   },
   {
@@ -165,7 +165,7 @@ export const calendarData = [
     trackLengthKm: 4.381,
     laps: 70,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.35,
     raceTimeType: 'day'
   },
   {
@@ -177,8 +177,8 @@ export const calendarData = [
     date: '28/07/2025',
     trackLengthKm: 7.004,
     laps: 44,
-    sprintRace: false,
-    wetRacePredictor: 0.01,
+    sprintRace: true,
+    wetRacePredictor: 0.70,
     raceTimeType: 'day'
   },
   {
@@ -191,7 +191,7 @@ export const calendarData = [
     trackLengthKm: 4.259,
     laps: 72,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.50,
     raceTimeType: 'day'
   },
   {
@@ -204,7 +204,7 @@ export const calendarData = [
     trackLengthKm: 5.793,
     laps: 53,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.30,
     raceTimeType: 'day'
   },
   {
@@ -217,7 +217,7 @@ export const calendarData = [
     trackLengthKm: 6.003,
     laps: 51,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.20,
     raceTimeType: 'day'
   },
   {
@@ -230,7 +230,7 @@ export const calendarData = [
     trackLengthKm: 4.940,
     laps: 62,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.60,
     raceTimeType: 'night'
   },
   {
@@ -242,8 +242,8 @@ export const calendarData = [
     date: '20/10/2025',
     trackLengthKm: 5.513,
     laps: 56,
-    sprintRace: false,
-    wetRacePredictor: 0.01,
+    sprintRace: true,
+    wetRacePredictor: 0.40,
     raceTimeType: 'day'
   },
   {
@@ -256,7 +256,7 @@ export const calendarData = [
     trackLengthKm: 4.304,
     laps: 71,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.25,
     raceTimeType: 'day'
   },
   {
@@ -268,8 +268,8 @@ export const calendarData = [
     date: '03/11/2025',
     trackLengthKm: 4.309,
     laps: 71,
-    sprintRace: false,
-    wetRacePredictor: 0.01,
+    sprintRace: true,
+    wetRacePredictor: 0.80,
     raceTimeType: 'day'
   },
   {
@@ -282,7 +282,7 @@ export const calendarData = [
     trackLengthKm: 6.201,
     laps: 50,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.05,
     raceTimeType: 'night'
   },
   {
@@ -294,8 +294,8 @@ export const calendarData = [
     date: '01/12/2025',
     trackLengthKm: 5.419,
     laps: 57,
-    sprintRace: false,
-    wetRacePredictor: 0.01,
+    sprintRace: true,
+    wetRacePredictor: 0.10,
     raceTimeType: 'night'
   },
   {
@@ -308,7 +308,7 @@ export const calendarData = [
     trackLengthKm: 5.281,
     laps: 58,
     sprintRace: false,
-    wetRacePredictor: 0.01,
+    wetRacePredictor: 0.05,
     raceTimeType: 'twilight'
   },
 ]
