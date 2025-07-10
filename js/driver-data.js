@@ -554,6 +554,28 @@ export const driverData = [
     wetWeatherMod: 0.065,
     tyreManagementMod: 0.075,
     reliabilityMod: 0.078
-  }
+  },
+  {
+  id: 27,
+  firstname: 'Felipe',
+  lastname: 'Drugovich',
+  shortName: 'DRU',
+  carNumber: 21,
+  team: '',
+  nationality: 'Brazilian',
+  dateOfBirth: '23/05/2000',
+  grandPrixStarts: 0,
+  wins: 0,
+  poles: 0,
+  fastestLaps: 0,
+  podiums: 0,
+  points: 0,
+  worldChampionships: [],
+  coreSkill: 59,
+  coreExperience: 50,
+  wetWeatherMod: 0.030,
+  tyreManagementMod: 0.050,
+  reliabilityMod: 0.050
+}
 
 ]
