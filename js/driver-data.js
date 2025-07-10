@@ -18,6 +18,7 @@ export const driverData = [
       2021, 2022, 2023, 2024
     ],
     coreSkill: 99,
+    coreExperience: 89,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
@@ -39,6 +40,7 @@ export const driverData = [
     points: 101,
     worldChampionships: [],
     coreSkill: 72,
+    coreExperience: 76,
     wetWeatherMod: 0.058,
     tyreManagementMod: 0.068,
     reliabilityMod: 0.068
@@ -60,6 +62,7 @@ export const driverData = [
     points: 1233,
     worldChampionships: [],
     coreSkill: 99,
+    coreExperience: 75,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.096,
     reliabilityMod: 0.095
@@ -81,6 +84,7 @@ export const driverData = [
     points: 623,
     worldChampionships: [],
     coreSkill: 93,
+    coreExperience: 70,
     wetWeatherMod: 0.092,
     tyreManagementMod: 0.094,
     reliabilityMod: 0.096
@@ -102,6 +106,7 @@ export const driverData = [
     points: 861,
     worldChampionships: [],
     coreSkill: 87,
+    coreExperience: 75,
     wetWeatherMod: 0.075,
     tyreManagementMod: 0.084,
     reliabilityMod: 0.084
@@ -123,11 +128,36 @@ export const driverData = [
     points: 63,
     worldChampionships: [],
     coreSkill: 68,
+    coreExperience: 60,
     wetWeatherMod: 0.045,
     tyreManagementMod: 0.060,
     reliabilityMod: 0.070
   },
   {
+    id: 7,
+    firstname: 'Lewis',
+    lastname: 'Hamilton',
+    shortName: 'HAM',
+    carNumber: 44,
+    team: 'Ferrari',
+    nationality: 'British',
+    dateOfBirth: '30/09/1997',
+    grandPrixStarts: 368,
+    wins: 105,
+    poles: 104,
+    fastestLaps: 67,
+    podiums: 202,
+    points: 4965.5,
+    worldChampionships: [
+      2008, 2014, 2015, 2017, 2018, 2019, 2020
+    ],
+    coreSkill: 89,
+    coreExperience: 98,
+    wetWeatherMod: 0.082,
+    tyreManagementMod: 0.089,
+    reliabilityMod: 0.089
+  },
+  {
     id: 1,
     firstname: '',
     lastname: '',
@@ -144,6 +174,7 @@ export const driverData = [
     points: 0,
     worldChampionships: [],
     coreSkill: 99,
+    coreExperience: 89,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
@@ -165,6 +196,7 @@ export const driverData = [
     points: 0,
     worldChampionships: [],
     coreSkill: 99,
+    coreExperience: 89,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
@@ -186,6 +218,7 @@ export const driverData = [
     points: 0,
     worldChampionships: [],
     coreSkill: 99,
+    coreExperience: 89,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
@@ -207,6 +240,7 @@ export const driverData = [
     points: 0,
     worldChampionships: [],
     coreSkill: 99,
+    coreExperience: 89,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
@@ -228,6 +262,7 @@ export const driverData = [
     points: 0,
     worldChampionships: [],
     coreSkill: 99,
+    coreExperience: 89,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
@@ -249,6 +284,7 @@ export const driverData = [
     points: 0,
     worldChampionships: [],
     coreSkill: 99,
+    coreExperience: 89,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
@@ -270,6 +306,7 @@ export const driverData = [
     points: 0,
     worldChampionships: [],
     coreSkill: 99,
+    coreExperience: 89,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
@@ -291,6 +328,7 @@ export const driverData = [
     points: 0,
     worldChampionships: [],
     coreSkill: 99,
+    coreExperience: 89,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
@@ -312,6 +350,7 @@ export const driverData = [
     points: 0,
     worldChampionships: [],
     coreSkill: 99,
+    coreExperience: 89,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
@@ -333,6 +372,7 @@ export const driverData = [
     points: 0,
     worldChampionships: [],
     coreSkill: 99,
+    coreExperience: 89,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
@@ -354,6 +394,7 @@ export const driverData = [
     points: 0,
     worldChampionships: [],
     coreSkill: 99,
+    coreExperience: 89,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
@@ -375,6 +416,7 @@ export const driverData = [
     points: 0,
     worldChampionships: [],
     coreSkill: 99,
+    coreExperience: 89,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
@@ -396,27 +438,7 @@ export const driverData = [
     points: 0,
     worldChampionships: [],
     coreSkill: 99,
-    wetWeatherMod: 0.099,
-    tyreManagementMod: 0.099,
-    reliabilityMod: 0.099
-  },
-  {
-    id: 1,
-    firstname: '',
-    lastname: '',
-    shortName: '',
-    carNumber: 1,
-    team: '',
-    nationality: '',
-    dateOfBirth: '30/09/1997',
-    grandPrixStarts: 1,
-    wins: 0,
-    poles: 0,
-    fastestLaps: 0,
-    podiums: 0,
-    points: 0,
-    worldChampionships: [],
-    coreSkill: 99,
+    coreExperience: 89,
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
