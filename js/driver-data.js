@@ -1,7 +1,10 @@
 export const driverData = [
   {
+    id: 1,
     firstname: 'Max',
     lastname: 'Verstappen',
+    shortName: 'VER',
+    carNumber: 33,
     team: 'Red Bull',
     nationality: 'Dutch',
     dateOfBirth: '30/09/1997',
