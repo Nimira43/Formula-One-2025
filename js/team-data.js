@@ -17,7 +17,9 @@ export const teamData = [
     fastestLaps: 0,
     driversChampionships: 0,
     constructorsChampionships: 0,
-    previousNames: [],
+    previousNames: [
+      'Stewart', 'Jaguar'
+    ],
   },
   {
     teamName: 'Mercedes',
@@ -27,7 +29,9 @@ export const teamData = [
     fastestLaps: 0,
     driversChampionships: 0,
     constructorsChampionships: 0,
-    previousNames: [],
+    previousNames: [
+      'Tyrrell', 'BAR', 'Honda', 'Brawn' 
+    ],
   },
   {
     teamName: 'Ferrari',
@@ -57,7 +61,9 @@ export const teamData = [
     fastestLaps: 0,
     driversChampionships: 0,
     constructorsChampionships: 0,
-    previousNames: [],
+    previousNames: [
+      'Jordan', 'Midland', 'Spyker', 'Force India', 'Racing Point'
+    ],
   },
   {
     teamName: 'Alpine',
@@ -67,7 +73,9 @@ export const teamData = [
     fastestLaps: 0,
     driversChampionships: 0,
     constructorsChampionships: 0,
-    previousNames: [],
+    previousNames: [
+      'Toleman', 'Benetton', 'Reanult', 'Lotus', 'Renault'
+    ],
   },
   {
     teamName: 'Haas',
@@ -87,7 +95,7 @@ export const teamData = [
     fastestLaps: 0,
     driversChampionships: 0,
     constructorsChampionships: 0,
-    previousNames: [],
+    previousNames: ['BMW'],
   },
   {
     teamName: 'Racing Bulls',
@@ -98,7 +106,7 @@ export const teamData = [
     driversChampionships: 0,
     constructorsChampionships: 0,
     previousNames: [
-      
+      'Minardi', 'Toro Rosso', 'Alpha Tauri'
     ],
   },
 ]
