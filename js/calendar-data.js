@@ -19,8 +19,8 @@ export const calendarData = [
     circuit: 'Jeddah Corniche Circuit',
     location: 'Jeddah',
     date: '09/03/2025',
-    trackLengthKm: 5.412,
-    laps: 57,
+    trackLengthKm: 6.174,
+    laps: 50,
     sprintRace: false,
     wetRacePredictor: 0.01,
     raceTimeType: 'day'
@@ -32,8 +32,8 @@ export const calendarData = [
     circuit: 'Albert Park Circuit',
     location: 'Melbourne',
     date: '24/03/2025',
-    trackLengthKm: 5.412,
-    laps: 57,
+    trackLengthKm: 5.278,
+    laps: 58,
     sprintRace: false,
     wetRacePredictor: 0.01,
     raceTimeType: 'day'
@@ -45,8 +45,8 @@ export const calendarData = [
     circuit: 'Suzuka International Racing Course',
     location: 'Suzuka',
     date: '07/04/2025',
-    trackLengthKm: 5.412,
-    laps: 57,
+    trackLengthKm: 5.807,
+    laps: 53,
     sprintRace: false,
     wetRacePredictor: 0.01,
     raceTimeType: 'day'
@@ -58,8 +58,8 @@ export const calendarData = [
     circuit: 'Shanghai International Circuit',
     location: 'Shanghai',
     date: '21/04/2025',
-    trackLengthKm: 5.412,
-    laps: 57,
+    trackLengthKm: 5.451,
+    laps: 56,
     sprintRace: false,
     wetRacePredictor: 0.01,
     raceTimeType: 'day'
