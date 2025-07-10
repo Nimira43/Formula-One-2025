@@ -17,11 +17,11 @@ export const driverData = [
     worldChampionships: [
       2021, 2022, 2023, 2024
     ],
-    coreSkill: 99,
+    coreSkill: 95,
     coreExperience: 89,
-    wetWeatherMod: 0.099,
-    tyreManagementMod: 0.099,
-    reliabilityMod: 0.099
+    wetWeather: 96,
+    tyreManagement: 94,
+    reliability: 94
   },
   {
     id: 2,
@@ -41,9 +41,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 72,
     coreExperience: 76,
-    wetWeatherMod: 0.058,
-    tyreManagementMod: 0.068,
-    reliabilityMod: 0.068
+    wetWeather: 58,
+    tyreManagement: 68,
+    reliability: 68
   },
   {
     id: 3,
@@ -61,11 +61,11 @@ export const driverData = [
     podiums: 36,
     points: 1233,
     worldChampionships: [],
-    coreSkill: 99,
+    coreSkill: 92,
     coreExperience: 83,
-    wetWeatherMod: 0.099,
-    tyreManagementMod: 0.096,
-    reliabilityMod: 0.095
+    wetWeather: 93,
+    tyreManagement: 94,
+    reliability: 92
   },
   {
     id: 4,
@@ -83,11 +83,11 @@ export const driverData = [
     podiums: 20,
     points: 623,
     worldChampionships: [],
-    coreSkill: 93,
+    coreSkill: 90,
     coreExperience: 75,
-    wetWeatherMod: 0.092,
-    tyreManagementMod: 0.094,
-    reliabilityMod: 0.096
+    wetWeather: 92,
+    tyreManagement: 94,
+    reliability: 93
   },
   {
     id: 5,
@@ -107,9 +107,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 87,
     coreExperience: 83,
-    wetWeatherMod: 0.075,
-    tyreManagementMod: 0.084,
-    reliabilityMod: 0.084
+    wetWeather: 75,
+    tyreManagement: 84,
+    reliability: 84
   },
   {
     id: 6,
@@ -129,9 +129,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 68,
     coreExperience: 60,
-    wetWeatherMod: 0.045,
-    tyreManagementMod: 0.060,
-    reliabilityMod: 0.070
+    wetWeather: 45,
+    tyreManagement: 60,
+    reliability: 70
   },
   {
     id: 7,
@@ -153,9 +153,9 @@ export const driverData = [
     ],
     coreSkill: 89,
     coreExperience: 98,
-    wetWeatherMod: 0.082,
-    tyreManagementMod: 0.089,
-    reliabilityMod: 0.089
+    wetWeather: 82,
+    tyreManagement: 89,
+    reliability: 89
   },
   {
     id: 8,
@@ -175,9 +175,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 91,
     coreExperience: 84,
-    wetWeatherMod: 0.078,
-    tyreManagementMod: 0.086,
-    reliabilityMod: 0.086
+    wetWeather: 78,
+    tyreManagement: 86,
+    reliability: 86
   },
   {
     id: 9,
@@ -199,9 +199,9 @@ export const driverData = [
     ],
     coreSkill: 84,
     coreExperience: 99,
-    wetWeatherMod: 0.090,
-    tyreManagementMod: 0.088,
-    reliabilityMod: 0.088
+    wetWeather: 90,
+    tyreManagement: 88,
+    reliability: 88
   },
   {
     id: 10,
@@ -221,9 +221,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 74,
     coreExperience: 85,
-    wetWeatherMod: 0.068,
-    tyreManagementMod: 0.074,
-    reliabilityMod: 0.076
+    wetWeather: 68,
+    tyreManagement: 74,
+    reliability: 76
   },
   {
     id: 11,
@@ -243,9 +243,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 85,
     coreExperience: 90,
-    wetWeatherMod: 0.080,
-    tyreManagementMod: 0.091,
-    reliabilityMod: 0.090
+    wetWeather: 80,
+    tyreManagement: 91,
+    reliability: 90
   },
   {
     id: 12,
@@ -265,9 +265,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 78,
     coreExperience: 80,
-    wetWeatherMod: 0.070,
-    tyreManagementMod: 0.078,
-    reliabilityMod: 0.080
+    wetWeather: 70,
+    tyreManagement: 78,
+    reliability: 80
   },
   {
     id: 14,
@@ -287,9 +287,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 80,
     coreExperience: 87,
-    wetWeatherMod: 0.073,
-    tyreManagementMod: 0.080,
-    reliabilityMod: 0.082
+    wetWeather: 73,
+    tyreManagement: 80,
+    reliability: 82
   },
   {
     id: 15,
@@ -309,9 +309,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 62,
     coreExperience: 54,
-    wetWeatherMod: 0.038,
-    tyreManagementMod: 0.054,
-    reliabilityMod: 0.058
+    wetWeather: 38,
+    tyreManagement: 54,
+    reliability: 58
   },
   {
     id: 16,
@@ -331,9 +331,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 82,
     coreExperience: 94,
-    wetWeatherMod: 0.087,
-    tyreManagementMod: 0.082,
-    reliabilityMod: 0.092
+    wetWeather: 87,
+    tyreManagement: 82,
+    reliability: 92
   },
   {
     id: 17,
@@ -353,9 +353,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 60,
     coreExperience: 52,
-    wetWeatherMod: 0.036,
-    tyreManagementMod: 0.052,
-    reliabilityMod: 0.056
+    wetWeather: 36,
+    tyreManagement: 52,
+    reliability: 56
   },
   {
     id: 18,
@@ -375,9 +375,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 76,
     coreExperience: 84,
-    wetWeatherMod: 0.065,
-    tyreManagementMod: 0.076,
-    reliabilityMod: 0.078
+    wetWeather: 65,
+    tyreManagement: 76,
+    reliability: 78
   },
   {
     id: 19,
@@ -397,9 +397,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 66,
     coreExperience: 58,
-    wetWeatherMod: 0.042,
-    tyreManagementMod: 0.058,
-    reliabilityMod: 0.063
+    wetWeather: 42,
+    tyreManagement: 58,
+    reliability: 63
   },
   {
     id: 20,
@@ -419,9 +419,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 68,
     coreExperience: 68,
-    wetWeatherMod: 0.056,
-    tyreManagementMod: 0.065,
-    reliabilityMod: 0.065
+    wetWeather: 56,
+    tyreManagement: 65,
+    reliability: 65
   },
   {
     id: 21,
@@ -441,9 +441,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 64,
     coreExperience: 56,
-    wetWeatherMod: 0.040,
-    tyreManagementMod: 0.056,
-    reliabilityMod: 0.066
+    wetWeather: 40,
+    tyreManagement: 56,
+    reliability: 66
   },
   {
     id: 22,
@@ -463,9 +463,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 82,
     coreExperience: 94,
-    wetWeatherMod: 0.058,
-    tyreManagementMod: 0.085,
-    reliabilityMod: 0.078
+    wetWeather: 58,
+    tyreManagement: 85,
+    reliability: 78
   },
   {
     id: 23,
@@ -485,9 +485,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 84,
     coreExperience: 94,
-    wetWeatherMod: 0.075,
-    tyreManagementMod: 0.082,
-    reliabilityMod: 0.085
+    wetWeather: 75,
+    tyreManagement: 82,
+    reliability: 85
   },
   {
     id: 24,
@@ -507,9 +507,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 80,
     coreExperience: 90,
-    wetWeatherMod: 0.065,
-    tyreManagementMod: 0.078,
-    reliabilityMod: 0.075
+    wetWeather: 65,
+    tyreManagement: 78,
+    reliability: 75
   },
   {
     id: 25,
@@ -529,9 +529,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 62,
     coreExperience: 54,
-    wetWeatherMod: 0.038,
-    tyreManagementMod: 0.052,
-    reliabilityMod: 0.060
+    wetWeather: 0.038,
+    tyreManagement: 52,
+    reliability: 60
   },
   {
     id: 26,
@@ -551,9 +551,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 74,
     coreExperience: 90,
-    wetWeatherMod: 0.065,
-    tyreManagementMod: 0.075,
-    reliabilityMod: 0.078
+    wetWeather: 65,
+    tyreManagement: 75,
+    reliability: 78
   },
   {
     id: 27,
@@ -573,9 +573,9 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 66,
     coreExperience: 66,
-    wetWeatherMod: 0.052,
-    tyreManagementMod: 0.072,
-    reliabilityMod: 0.074
+    wetWeather: 52,
+    tyreManagement: 72,
+    reliability: 74
   },
   {
     id: 27,
@@ -595,8 +595,8 @@ export const driverData = [
     worldChampionships: [],
     coreSkill: 59,
     coreExperience: 50,
-    wetWeatherMod: 0.030,
-    tyreManagementMod: 0.050,
-    reliabilityMod: 0.050
+    wetWeather: 30,
+    tyreManagement: 50,
+    reliability: 50
   }
 ]
