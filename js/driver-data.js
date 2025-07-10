@@ -21,5 +21,26 @@ export const driverData = [
     wetWeatherMod: 0.099,
     tyreManagementMod: 0.099,
     reliabilityMod: 0.099
+  },
+  {
+    id: 1,
+    firstname: '',
+    lastname: '',
+    shortName: '',
+    carNumber: 1,
+    team: '',
+    nationality: '',
+    dateOfBirth: '30/09/1997',
+    grandPrixStarts: 1,
+    wins: 0,
+    poles: 0,
+    fastestLaps: 0,
+    podiums: 0,
+    points: 0,
+    worldChampionships: [],
+    coreSkill: 99,
+    wetWeatherMod: 0.099,
+    tyreManagementMod: 0.099,
+    reliabilityMod: 0.099
   }
 ]
