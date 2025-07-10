@@ -23,7 +23,7 @@ export const calendarData = [
     laps: 50,
     sprintRace: false,
     wetRacePredictor: 0.01,
-    raceTimeType: 'day'
+    raceTimeType: 'night'
   },
   {
     round: 3,
@@ -231,7 +231,7 @@ export const calendarData = [
     laps: 62,
     sprintRace: false,
     wetRacePredictor: 0.01,
-    raceTimeType: 'day'
+    raceTimeType: 'night'
   },
   {
     round: 19,
@@ -283,7 +283,7 @@ export const calendarData = [
     laps: 50,
     sprintRace: false,
     wetRacePredictor: 0.01,
-    raceTimeType: 'day'
+    raceTimeType: 'night'
   },
   {
     round: 23,
@@ -296,7 +296,7 @@ export const calendarData = [
     laps: 57,
     sprintRace: false,
     wetRacePredictor: 0.01,
-    raceTimeType: 'day'
+    raceTimeType: 'night'
   },
   {
     round: 24,
@@ -309,6 +309,6 @@ export const calendarData = [
     laps: 58,
     sprintRace: false,
     wetRacePredictor: 0.01,
-    raceTimeType: 'day'
+    raceTimeType: 'twilight'
   },
 ]
