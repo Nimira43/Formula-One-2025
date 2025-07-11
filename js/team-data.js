@@ -11,7 +11,13 @@ export const teamData = [
     experience: 88,
     pitstopSkill: 85,
     tyreManagement: 90,
-    reliability: 87
+    reliability: 87,
+    strategyFlexibility: 86,
+    budgetEfficiency: 91,
+    driverDevelopment: 92,
+    mechanicalDNFRisk: 0.08,
+    techUpgradeRate: 89,
+    teamCohesion: 90
   },
   {
     teamName: 'Red Bull',
@@ -25,7 +31,13 @@ export const teamData = [
     experience: 95,
     pitstopSkill: 95,
     tyreManagement: 94,
-    reliability: 92
+    reliability: 92,
+    strategyFlexibility: 94,
+    budgetEfficiency: 88,
+    driverDevelopment: 85,
+    mechanicalDNFRisk: 0.05,
+    techUpgradeRate: 96,
+    teamCohesion: 87
   },
   {
     teamName: 'Mercedes',
@@ -39,7 +51,13 @@ export const teamData = [
     experience: 93,
     pitstopSkill: 90,
     tyreManagement: 88,
-    reliability: 90
+    reliability: 90,
+    strategyFlexibility: 91,
+    budgetEfficiency: 85,
+    driverDevelopment: 84,
+    mechanicalDNFRisk: 0.07,
+    techUpgradeRate: 90,
+    teamCohesion: 88
   },
   {
     teamName: 'Ferrari',
@@ -53,7 +71,13 @@ export const teamData = [
     experience: 96,
     pitstopSkill: 84,
     tyreManagement: 86,
-    reliability: 85
+    reliability: 85,
+    strategyFlexibility: 82,
+    budgetEfficiency: 80,
+    driverDevelopment: 78,
+    mechanicalDNFRisk: 0.10,
+    techUpgradeRate: 83,
+    teamCohesion: 75
   },
   {
     teamName: 'Williams',
@@ -67,7 +91,13 @@ export const teamData = [
     experience: 80,
     pitstopSkill: 78,
     tyreManagement: 75,
-    reliability: 76
+    reliability: 76,
+    strategyFlexibility: 70,
+    budgetEfficiency: 82,
+    driverDevelopment: 83,
+    mechanicalDNFRisk: 0.12,
+    techUpgradeRate: 72,
+    teamCohesion: 80
   },
   {
     teamName: 'Aston Martin',
@@ -81,7 +111,13 @@ export const teamData = [
     experience: 82,
     pitstopSkill: 83,
     tyreManagement: 80,
-    reliability: 81
+    reliability: 81,
+    strategyFlexibility: 78,
+    budgetEfficiency: 79,
+    driverDevelopment: 76,
+    mechanicalDNFRisk: 0.11,
+    techUpgradeRate: 80,
+    teamCohesion: 82
   },
   {
     teamName: 'Alpine',
@@ -95,7 +131,13 @@ export const teamData = [
     experience: 85,
     pitstopSkill: 80,
     tyreManagement: 78,
-    reliability: 79
+    reliability: 79,
+    strategyFlexibility: 76,
+    budgetEfficiency: 77,
+    driverDevelopment: 74,
+    mechanicalDNFRisk: 0.13,
+    techUpgradeRate: 78,
+    teamCohesion: 79
   },
   {
     teamName: 'Haas',
@@ -109,7 +151,13 @@ export const teamData = [
     experience: 70,
     pitstopSkill: 72,
     tyreManagement: 68,
-    reliability: 65
+    reliability: 65,
+    strategyFlexibility: 60,
+    budgetEfficiency: 75,
+    driverDevelopment: 66,
+    mechanicalDNFRisk: 0.18,
+    techUpgradeRate: 65,
+    teamCohesion: 70
   },
   {
     teamName: 'Sauber',
@@ -123,7 +171,13 @@ export const teamData = [
     experience: 78,
     pitstopSkill: 75,
     tyreManagement: 74,
-    reliability: 72
+    reliability: 72,
+    strategyFlexibility: 68,
+    budgetEfficiency: 76,
+    driverDevelopment: 72,
+    mechanicalDNFRisk: 0.14,
+    techUpgradeRate: 70,
+    teamCohesion: 74
   },
   {
     teamName: 'Racing Bulls',
@@ -137,7 +191,13 @@ export const teamData = [
     experience: 76,
     pitstopSkill: 77,
     tyreManagement: 73,
-    reliability: 70
+    reliability: 70,
+    strategyFlexibility: 72,
+    budgetEfficiency: 74,
+    driverDevelopment: 80,
+    mechanicalDNFRisk: 0.15,
+    techUpgradeRate: 73,
+    teamCohesion: 78
   },
 ];
 
