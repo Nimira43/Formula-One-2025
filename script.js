@@ -37,3 +37,25 @@ This suggests most major upgrades or developments are already in play.
 You can simulate tight strategy choices from here — maybe one final upgrade, or resource-saving tactics in later rounds.
 
 */
+
+// Red Bull at Round 19
+
+console.log(financialPerformanceEngine(teamData[1], 19))
+
+/* 
+
+Team: Red Bull
+Round: 19 of 24
+
+Performance Score: 80
+Remaining Budget: $2M
+Penalty Triggered: false
+
+What It Means
+Performance Score of 80: That’s a drop from their early-season highs — they’re still elite, but the wear and tear is starting to bite. Fatigue + near-maxed budget + slightly lower efficiency (88) all factor in. They’re operating at ~80% of their optimal budget-to-performance output.
+
+Remaining Budget $2M: Practically fumes. They've spent 99% of their cap — likely completed their final upgrade phase. From here, it's resource management mode: preserving parts, limiting damage, and hoping nothing implodes under stress.
+
+Penalty Triggered = false: Lucky break. With a budgetPenaltyRisk of 0.03 and high budgetUsage, Round 19 was a dicey moment. No aero restrictions, no fines — Red Bull keep full access to tools and talent.
+
+*/
