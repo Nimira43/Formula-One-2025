@@ -1,7 +1,7 @@
 import { driverData } from './js/driver-data.js'
 import { calendarData } from './js/calendar-data.js'
 import { teamData } from './js/team-data.js'
-import { financialPerformanceEngine } from './js/finance/seasonFinancials.js'
+import { evaluateAllTeamsByRound, financialPerformanceEngine } from './js/finance/seasonFinancials.js'
 import { grandPrixPoints, sprintRacePoints, fastestLapPoint, tyreCompounds } from './js/utilities.js'
 
 console.log(driverData)
@@ -59,3 +59,24 @@ Remaining Budget $2M: Practically fumes. They've spent 99% of their cap — like
 Penalty Triggered = false: Lucky break. With a budgetPenaltyRisk of 0.03 and high budgetUsage, Round 19 was a dicey moment. No aero restrictions, no fines — Red Bull keep full access to tools and talent.
 
 */
+
+console.log(evaluateAllTeamsByRound(23))
+
+/*
+Round 23
+
+Team	            Performance Score	  Remaining Budget (M)	  Penalty Triggered
+McLaren	          83	                7	                      False
+Red Bull	        78	                2	                      False
+Mercedes	        73	                5	                      False
+Ferrari	          65	                3	                      False
+Williams	        68	                15	                    False
+Aston Martin	    63	                10	                    False
+Alpine	          60	                12	                    False
+Haas	            57	                18	                    False
+Sauber	          59	                17                      False
+Racing Bulls	    56	                13	                    False
+
+*/
+
+console.log(evaluateAllTeamsByRound(5))
