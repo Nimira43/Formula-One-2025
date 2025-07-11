@@ -8,6 +8,10 @@ export const teamData = [
     driversChampionships: 12,
     constructorsChampionships: 9,
     previousNames: [],
+    experience: 88,
+    pitstopSkill: 85,
+    tyreManagement: 90,
+    reliability: 87
   },
   {
     teamName: 'Red Bull',
@@ -18,6 +22,10 @@ export const teamData = [
     driversChampionships: 6,
     constructorsChampionships: 8,
     previousNames: ['Stewart', 'Jaguar'],
+    experience: 95,
+    pitstopSkill: 95,
+    tyreManagement: 94,
+    reliability: 92
   },
   {
     teamName: 'Mercedes',
@@ -28,6 +36,10 @@ export const teamData = [
     driversChampionships: 9,
     constructorsChampionships: 8,
     previousNames: ['Tyrrell', 'BAR', 'Honda', 'Brawn'],
+    experience: 93,
+    pitstopSkill: 90,
+    tyreManagement: 88,
+    reliability: 90
   },
   {
     teamName: 'Ferrari',
@@ -38,6 +50,10 @@ export const teamData = [
     driversChampionships: 15,
     constructorsChampionships: 16,
     previousNames: [],
+    experience: 96,
+    pitstopSkill: 84,
+    tyreManagement: 86,
+    reliability: 85
   },
   {
     teamName: 'Williams',
@@ -48,6 +64,10 @@ export const teamData = [
     driversChampionships: 7,
     constructorsChampionships: 9,
     previousNames: [],
+    experience: 80,
+    pitstopSkill: 78,
+    tyreManagement: 75,
+    reliability: 76
   },
   {
     teamName: 'Aston Martin',
@@ -58,6 +78,10 @@ export const teamData = [
     driversChampionships: 0,
     constructorsChampionships: 0,
     previousNames: ['Jordan', 'Midland', 'Spyker', 'Force India', 'Racing Point'],
+    experience: 82,
+    pitstopSkill: 83,
+    tyreManagement: 80,
+    reliability: 81
   },
   {
     teamName: 'Alpine',
@@ -68,6 +92,10 @@ export const teamData = [
     driversChampionships: 0,
     constructorsChampionships: 0,
     previousNames: ['Toleman', 'Benetton', 'Reanult', 'Lotus', 'Renault'],
+    experience: 85,
+    pitstopSkill: 80,
+    tyreManagement: 78,
+    reliability: 79
   },
   {
     teamName: 'Haas',
@@ -78,6 +106,10 @@ export const teamData = [
     driversChampionships: 0,
     constructorsChampionships: 0,
     previousNames: [],
+    experience: 70,
+    pitstopSkill: 72,
+    tyreManagement: 68,
+    reliability: 65
   },
   {
     teamName: 'Sauber',
@@ -88,6 +120,10 @@ export const teamData = [
     driversChampionships: 0,
     constructorsChampionships: 0,
     previousNames: ['Sauber', 'BMW', 'Sauber', 'Alfa Romeo'],
+    experience: 78,
+    pitstopSkill: 75,
+    tyreManagement: 74,
+    reliability: 72
   },
   {
     teamName: 'Racing Bulls',
@@ -98,6 +134,10 @@ export const teamData = [
     driversChampionships: 0,
     constructorsChampionships: 0,
     previousNames: ['Minardi', 'Toro Rosso', 'Alpha Tauri'],
+    experience: 76,
+    pitstopSkill: 77,
+    tyreManagement: 73,
+    reliability: 70
   },
 ];
 
