@@ -1,18 +1,44 @@
 import { drivers } from './driversData.js'
 
 class InputHandler {
-  constructor() {}
+  constructor() {
+
+  }
+
+  disable() {}
+  enable() {}
 }
+
 class RoadLine {
-  constructor() {}
+  constructor(y, container, speed) {
+
+  }
+  update() {}
 }
+
 class Player {
-  constructor() {}
+  constructor(container, speed) {
+
+  }
+  update(bounds, keyState) {}
 }
+
 class Enemy {
-  constructor() {}
+  constructor() {
+
+  }
+  update(container) {}
+  reset(container) {}
+  checkCollision(other) {}
 }
+
 class Game {
-  constructor() {}
+  constructor() {
+    
+  }
+  start() {}
+  loop() {}
+  end() {}
 }
+
 new Game()
