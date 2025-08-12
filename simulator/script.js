@@ -23,8 +23,14 @@ class InputHandler {
     })
   }
 
-  disable() {}
-  enable() {}
+  disable() {
+    this.enabled = false
+    Object.keys(this.keyState).forEach(key => this.keyState[key] = false)
+  }
+
+  enable() {
+    this.enabled = true
+  }
 }
 
 class RoadLine {
