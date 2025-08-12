@@ -2,6 +2,12 @@ import { drivers } from './driversData.js'
 
 class InputHandler {
   constructor() {
+    this.keyState = {
+      ArrowUp: false,
+      ArrowDown: false,
+      ArrowLeft: false,
+      ArrowRight: false
+    }
 
   }
 
