@@ -104,7 +104,16 @@ class Enemy {
     if (this.y >= 1500) this.reset(container)
   }
   
-  reset(container) {}
+  reset(container) {
+    this.y = -600
+    this.element.style.left = `${Math.floor(Math.random() * (container.offsetWidth - 50))}px`
+    this.element.style.backgroundColor = this.driver.colour
+    this.element.style.border = `3px solid ${this.driver.badge}`
+    this.speed = 2 + Math.random() * 3
+    this.direction = Math.random() < 0.5 ? -1 : 1
+    this.drift = 0.5 + Math.random()
+  }
+
   
   checkCollision(other) {}
 }
