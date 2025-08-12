@@ -87,7 +87,7 @@ Racing Bulls      [74, 73, 72, 71, 71, 70, 69, 68, 67, 66, 66, 65, 64, 63, 62, 6
 
 Performance simulation over the season taking into account - finance, fatigue, development
 
-McLaren: Consistent high-level execution, barely flinching under fatigue. That 91 → 83 curve screams championship contenders built on precision and polish.
+McLaren: Consistent high-level execution, barely flinching under fatigue. That 91 to 83 curve screams championship contenders built on precision and polish.
 
 Red Bull: Aggressive spend, high return — but visible fatigue from Round 16 onward. They sprint, but don’t stroll.
 
