@@ -51,8 +51,16 @@ class RoadLine {
 
 class Player {
   constructor(container, speed) {
-
+    this.speed = speed
+    this.x = 0
+    this.y = 0
+    this.element = document.createElement('div')
+    this.element.className = 'car'
+    container.appendChild(this.element)
+    this.x = this.element.offsetLeft
+    this.y = this.element.offsetTop
   }
+  
   update(bounds, keyState) {}
 }
 
@@ -82,6 +90,7 @@ class Game {
 
     this.startScreen.addEventListener('click', () => this.start())
   }
+
   start() {}
   loop() {}
   end() {}
