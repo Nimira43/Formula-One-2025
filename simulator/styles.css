@@ -115,3 +115,16 @@ body {
 .car {
   background-color: #ff4500;
 }
+
+.line {
+  position: absolute;
+  width: 10px;
+  height: 100px;
+  background-color: var(--line-color);
+  left: 195px;
+  opacity: 0.8;
+}
+
+.hide {
+  display: none !important;
+}
