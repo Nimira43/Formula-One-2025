@@ -60,8 +60,16 @@ class Player {
     this.x = this.element.offsetLeft
     this.y = this.element.offsetTop
   }
-  
-  update(bounds, keyState) {}
+
+  update(bounds, keyState) {
+    if (keyState.ArrowUp && this.y > bounds.top) this.y -= this.speed
+    if (keyState.ArrowDown && this.y < bounds.bottom) this.y += this.speed
+    if (keyState.ArrowLeft && this.x > 0) this.x -= this.speed
+    if (keyState.ArrowRight && this.x < bounds.width - 50) this.x += this.speed
+
+    this.element.style.left = `${this.x}px`
+    this.element.style.top = `${this.y}px`
+  }
 }
 
 class Enemy {
