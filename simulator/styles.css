@@ -9,3 +9,13 @@
   font-family: 'Smooch Sans', sans-serif;
   font-weight: 300;
 }
+
+:root {
+  --bg-dark: #111;
+  --prime: #ff4500;
+  --line-color: #fffcfa;
+  --car-size: 50px;
+  --car-height: 100px;
+  --font-main: 'Smooch Sans', sans-serif;
+  --font-score: 'Concert One', sans-serif;
+}
