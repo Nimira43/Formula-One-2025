@@ -87,28 +87,28 @@ export const drivers = [
     driver: 'Senna',
     team: 'McLaren',
     colour: '#ff0000',
-    car: 12,
+    car: 1,
     badge: '#ffffff'
   },
   {
     driver: 'Prost',
     team: 'McLaren',
     colour: '#ff0000',
-    car: 11,
+    car: 2,
     badge: '#ffffff'
   },
   {
     driver: 'Mansell',
     team: 'Williams',
     colour: '#ffff00',
-    car: 12,
+    car: '#5',
     badge: '#0000ff'
   },
   {
     driver: 'Piquet',
     team: 'Williams',
     colour: '#ffff00',
-    car: 11,
+    car: '#6',
     badge: '#0000ff'
   },
   {

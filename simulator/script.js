@@ -8,6 +8,7 @@ class InputHandler {
       ArrowLeft: false,
       ArrowRight: false
     }
+
     this.enabled = true
 
     document.addEventListener('keydown', e => {
@@ -73,7 +74,7 @@ class Player {
 }
 
 class Enemy {
-  constructor() {
+  constructor(driverData, container, index) {
     this.driver = driverData
     this.y = -600 * (index + 1)
     this.speed = 3 + Math.random() * 3
@@ -103,7 +104,7 @@ class Enemy {
 
     if (this.y >= 1500) this.reset(container)
   }
-  
+
   reset(container) {
     this.y = -600
     this.element.style.left = `${Math.floor(Math.random() * (container.offsetWidth - 50))}px`
@@ -186,7 +187,7 @@ class Game {
 
     if (this.isPlaying) requestAnimationFrame(() => this.loop())
   }
-  
+
   end() {
     this.isPlaying = false
     this.input.disable()
