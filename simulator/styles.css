@@ -93,3 +93,25 @@ body {
   border: 3px solid #222;
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
+
+.car,
+.enemy {
+  position: absolute;
+  width: var(--car-size);
+  height: var(--car-height);
+  background-image: url('./images/car.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: var(--car-height);
+  color: #fff;
+  font-weight: bold;
+  border-radius: 4px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.2);
+}
+
+.car {
+  background-color: #ff4500;
+}
