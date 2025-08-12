@@ -19,3 +19,10 @@
   --font-main: 'Smooch Sans', sans-serif;
   --font-score: 'Concert One', sans-serif;
 }
+
+body {
+  background-color: var(--bg-dark);
+  /* color: #fff; */
+  font-family: var(--font-main);
+  overflow: hidden;
+}
