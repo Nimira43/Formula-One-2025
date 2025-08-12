@@ -91,7 +91,18 @@ class Enemy {
     container.appendChild(this.element)
   }
 
-  update(container) {}
+  update(container) {
+    this.y += this.speed
+    this.element.style.top = `${this.y}px`
+
+    let newLeft = this.element.offsetLeft + this.direction * this.drift
+    const maxLeft = container.offsetWidth - 50
+
+    if (newLeft <= 0 || newLeft >= maxLeft) this.direction *= -1
+    this.element.style.left = `${newLeft}px`
+
+    if (this.y >= 1500) this.reset(container)
+  }
   
   reset(container) {}
   
