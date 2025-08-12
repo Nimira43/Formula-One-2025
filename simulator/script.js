@@ -161,7 +161,30 @@ class Game {
   }
 
   loop() {
+    const bounds = this.gameArea.getBoundingClientRect()
+    this.roadLines.forEach(line => line.update())
+    this.player.update(bounds, this.input.keyState)
 
+    this.enemies.forEach((enemy, i) => {
+      enemy.update(this.gameArea)
+
+      if (enemy.checkCollision(this.player)) return this.end()
+
+      for (let j = i + 1; j < this.enemies.length; j++) {
+        const other = this.enemies[j]
+        if (enemy.checkCollision(other)) {
+          enemy.direction *= -1
+          other.direction *= -1
+          enemy.speed = Math.max(1.5, enemy.speed * 0.8)
+          other.speed = Math.max(1.5, other.speed * 0.8)
+        }
+      }
+    })
+
+    this.score++
+    this.scoreDisplay.innerHTML = `Score: ${this.score}`
+
+    if (this.isPlaying) requestAnimationFrame(() => this.loop())
   }
   
   end() {
