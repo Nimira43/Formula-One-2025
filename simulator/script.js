@@ -188,7 +188,10 @@ class Game {
   }
   
   end() {
-
+    this.isPlaying = false
+    this.input.disable()
+    this.scoreDisplay.innerHTML = `Game Over<br>Score was ${this.score}`
+    this.startScreen.classList.remove('hide')
   }
 }
 
