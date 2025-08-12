@@ -74,10 +74,27 @@ class Player {
 
 class Enemy {
   constructor() {
+    this.driver = driverData
+    this.y = -600 * (index + 1)
+    this.speed = 3 + Math.random() * 3
+    this.direction = Math.random() < 0.5 ? -1 : 1
+    this.drift = 0.75 + Math.random()
 
+    this.element = document.createElement('div')
+    this.element.className = 'enemy'
+    this.element.innerHTML = `<br>${driverData.car}`
+    this.element.style.top = `${this.y}px`
+    this.element.style.left = `${Math.floor(Math.random() * (container.offsetWidth - 50))}px`
+    this.element.style.backgroundColor = driverData.colour
+    this.element.style.border = `3px solid ${driverData.badge}`
+
+    container.appendChild(this.element)
   }
+
   update(container) {}
+  
   reset(container) {}
+  
   checkCollision(other) {}
 }
 
