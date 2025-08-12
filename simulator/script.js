@@ -114,8 +114,16 @@ class Enemy {
     this.drift = 0.5 + Math.random()
   }
 
-  
-  checkCollision(other) {}
+  checkCollision(other) {
+    const a = this.element.getBoundingClientRect()
+    const b = other.element.getBoundingClientRect()
+    return !(
+      a.bottom < b.top ||
+      a.top > b.bottom ||
+      a.right < b.left ||
+      a.left > b.right
+    )
+  }
 }
 
 class Game {
