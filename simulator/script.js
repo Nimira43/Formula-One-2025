@@ -35,8 +35,14 @@ class InputHandler {
 
 class RoadLine {
   constructor(y, container, speed) {
-
+    this.y = y
+    this.speed = speed
+    this.element = document.createElement('div')
+    this.element.className = 'line'
+    this.element.style.top = `${this.y}px`
+    container.appendChild(this.element)
   }
+  
   update() {}
 }
 
