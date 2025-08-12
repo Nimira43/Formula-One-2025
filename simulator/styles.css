@@ -83,3 +83,13 @@ body {
   font-size: 1rem;
   opacity: 0.9;
 }
+
+.game-area {
+  position: relative;
+  width: 400px;
+  height: 100%;
+  background-color: #000;
+  overflow: hidden;
+  border: 3px solid #222;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
