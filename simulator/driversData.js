@@ -13,4 +13,18 @@ export const drivers = [
     car: 22,
     badge: '#ffff00'
   },
+  {
+    driver: 'Sainz',
+    team: 'Williams',
+    colour: '#0000ff',
+    car: 55,
+    badge: '#ffffff'
+  },
+  {
+    driver: 'Albon',
+    team: 'Williams',
+    colour: '#0000ff',
+    car: 23,
+    badge: '#ffffff'
+  },
 ]
