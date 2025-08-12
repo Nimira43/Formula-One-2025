@@ -42,8 +42,11 @@ class RoadLine {
     this.element.style.top = `${this.y}px`
     container.appendChild(this.element)
   }
-  
-  update() {}
+
+  update() {
+    this.y = this.y >= 1500 ? this.y - 1500 : this.y + this.speed
+    this.element.style.top = `${this.y}px`
+  }
 }
 
 class Player {
