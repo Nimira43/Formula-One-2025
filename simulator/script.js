@@ -34,7 +34,20 @@ class Enemy {
 
 class Game {
   constructor() {
-    
+    this.score = 0
+    this.isPlaying = false
+    this.speed = 5
+    this.roadLines = []
+    this.enemies = []
+
+    this.scoreDisplay = document.querySelector('.score')
+    this.startScreen = document.querySelector('.start-screen')
+    this.gameArea = document.querySelector('.game-area')
+
+    this.player = null
+    this.input = new InputHandler()
+
+    this.startScreen.addEventListener('click', () => this.start())
   }
   start() {}
   loop() {}
