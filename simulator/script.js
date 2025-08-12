@@ -8,7 +8,19 @@ class InputHandler {
       ArrowLeft: false,
       ArrowRight: false
     }
+    this.enabled = true
 
+    document.addEventListener('keydown', e => {
+      if (this.enabled && e.key in this.keyState) {
+        this.keyState[e.key] = true
+      }
+    })
+
+    document.addEventListener('keyup', e => {
+      if (e.key in this.keyState) {
+        this.keyState[e.key] = false
+      }
+    })
   }
 
   disable() {}
