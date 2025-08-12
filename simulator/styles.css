@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Smooch+Sans:wght@100..900&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Smooch Sans', sans-serif;
+  font-weight: 300;
+}
