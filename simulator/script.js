@@ -144,9 +144,29 @@ class Game {
     this.startScreen.addEventListener('click', () => this.start())
   }
 
-  start() {}
-  loop() {}
-  end() {}
+  start() {
+    this.startScreen.classList.add('hide')
+    this.gameArea.innerHTML = ''
+    this.score = 0
+    this.isPlaying = true
+
+    this.roadLines = Array.from({ length: 10 }, (_, i) => new RoadLine(i * 150, this.gameArea, this.speed))
+    this.player = new Player(this.gameArea, this.speed)
+
+    const selectedDrivers = drivers.sort(() => 0.5 - Math.random()).slice(0, 7)
+    this.enemies = selectedDrivers.map((driver, i) => new Enemy(driver, this.gameArea, i))
+
+    this.input.enable()
+    requestAnimationFrame(() => this.loop())
+  }
+
+  loop() {
+
+  }
+  
+  end() {
+
+  }
 }
 
 new Game()
