@@ -100,30 +100,30 @@ export const drivers = [
   {
     driver: 'Mansell',
     team: 'Williams',
-    colour: '#ffff00',
+    colour: '#ffd900',
     car: '#5',
-    badge: '#0000ff'
+    badge: '#1717f3'
   },
   {
     driver: 'Piquet',
     team: 'Williams',
-    colour: '#ffff00',
+    colour: '#ffd900',
     car: '#6',
-    badge: '#0000ff'
+    badge: '#1717f3'
   },
   {
     driver: 'Russell',
     team: 'Mercedes',
-    colour: '#c0c0c0',
+    colour: '#989595',
     car: 63,
-    badge: '#40e0d0'
+    badge: '#04fce3'
   },
   {
     driver: 'Antonelli',
-    team: 'Ferrari',
-    colour: '#c0c0c0',
+    team: 'Mercedes',
+    colour: '#989595',
     car: 12,
-    badge: '#40e0d0'
+    badge: '#04fce3'
   },
   {
     driver: 'Ocon',
