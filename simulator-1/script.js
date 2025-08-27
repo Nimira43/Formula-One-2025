@@ -1,4 +1,4 @@
-import { drivers } from './driversData.js'
+import { drivers } from './data/driversData.js'
 
 class InputHandler {
   constructor() {
