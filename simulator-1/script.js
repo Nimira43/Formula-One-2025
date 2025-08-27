@@ -1,4 +1,5 @@
 import { drivers } from './data/driver-data.js'
+import { renderSim2 } from './sim2.js'
 
 class InputHandler {
   constructor() {
