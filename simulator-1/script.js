@@ -50,6 +50,12 @@ class RoadLine {
     this.element = document.createElement('div')
     this.element.className = 'line'
     this.element.style.top = `${this.y}px`
+
+    const lineWidth = 10
+    const containerWidth = container.offsetWidth
+    const centerX = (containerWidth / 2) - (lineWidth / 2)
+    this.element.style.left = `${centerX}px`
+
     container.appendChild(this.element)
   }
 
