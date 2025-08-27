@@ -18,3 +18,8 @@ roundResults.forEach(({ teamName, penaltyTriggered }) => {
   if (penaltyTriggered) console.warn(`⚠️ ${teamName} breached budget cap in Round 20`)
 })
 
+const pulse = generateSeasonPulse()
+pulse.forEach(({ teamName, performanceTimeline }) => {
+  console.log(`📈 ${teamName} Pulse:`, performanceTimeline.map(p => p.toFixed(2)).join(', '))
+})
+
