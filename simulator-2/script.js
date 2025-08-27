@@ -94,8 +94,8 @@ cars.push(new Car('player', 400, 300, 'red', true))
 for (let i = 0; i < 19; i++) {
   const x = 100 + i * 30 
   const y = 100 
-  const color = `hsl(${(i * 20) % 360}, 70%, 50%)` 
-  cars.push(new Car(`ai-${i}`, x, y, color)) 
+  const colour = `hsl(${(i * 20) % 360}, 70%, 50%)` 
+  cars.push(new Car(`ai-${i}`, x, y, colour)) 
 }
 
 function drawTrack() {
