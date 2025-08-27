@@ -17,8 +17,8 @@ const canvas = document.getElementById('track')
     y: 100,
     angle: 0,
     speed: 2,
-    width: 20,
-    height: 40,
+    width: 40,
+    height: 20,
     pathIndex: 0
   } 
 
