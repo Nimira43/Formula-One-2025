@@ -23,6 +23,10 @@ class InputHandler {
         this.keyState[e.key] = false
       }
     })
+
+    this.element.addEventListener('mouseenter', () => {
+      renderSim2(this.driver.id)
+    })
   }
 
   disable() {
