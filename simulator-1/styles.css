@@ -116,6 +116,21 @@ body {
   box-shadow: 0 0 10px rgba(255, 69, 0, 0.3);
 }
 
+.driver-card {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-radius: 8px;
+  color: #fff;
+  font-family: var(--font-main);
+  box-shadow: 0 0 10px rgba(255, 69, 0, 0.3);
+}
+
+.driver-card h3 {
+  font-family: var(--font-score);
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+}
+
 .start-screen {
   position: absolute;
   top: 100px;
