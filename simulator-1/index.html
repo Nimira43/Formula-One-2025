@@ -9,7 +9,7 @@
   <title>Simulation</title>
 </head>
 <body>
-  <header class="score">Score: 0</header>
+  <!-- <header class="score">Score: 0</header>
 
   <main class="game">
     <section class="start-screen">
@@ -17,6 +17,21 @@
     </section>
 
     <section class="game-area"></section>
+  </main> -->
+
+  <main class="grid-container">
+    <header class="score">Score: 0</header>
+
+    <section id="sector1" class="sector"></section>
+    <section id="sector2" class="sector">
+      <section class="game-area"></section>
+    </section>
+    <section id="sector3" class="sector">
+      <div id="sim2-panel"></div>
+    </section>
+    <section id="sector4" class="sector"></section>
+    <section id="sector5" class="sector"></section>
+    <section id="sector6" class="sector"></section>
   </main>
 
   <script src="./script.js" type="module"></script>
