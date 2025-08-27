@@ -31,6 +31,16 @@ class InputHandler {
       })
     }
   }
+  enable() {
+    this.enabled = true
+    console.log(`[Input] Enabled for ${this.driver.driver}`)
+  }
+
+  disable() {
+    this.enabled = false
+    Object.keys(this.keyState).forEach(key => this.keyState[key] = false)
+    console.log(`[Input] Disabled for ${this.driver.driver}`)
+  }
 }
 
 class RoadLine {
