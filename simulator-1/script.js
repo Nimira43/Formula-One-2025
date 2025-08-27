@@ -1,5 +1,5 @@
-// import { drivers } from './data/driversData.js'
 import { drivers } from './data/driver-data.js'
+
 class InputHandler {
   constructor() {
     this.keyState = {
