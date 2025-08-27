@@ -1,4 +1,4 @@
-import { teamData } from '../team-data.js'
+import { teamData } from './team-data.js'
 
 export function financialPerformanceEngine(team, currentRound = 1) {
   const {

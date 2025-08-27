@@ -1,4 +1,4 @@
-import { teamData } from '../team-data.js'
+import { teamData } from './team-data.js'
 import { financialPerformanceEngine } from './seasonFinancials.js'
 
 // Generates performance scores for each team across the full season

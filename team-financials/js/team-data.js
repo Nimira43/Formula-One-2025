@@ -82,7 +82,6 @@ export const teamData = [
     tyreManagement: 86,
     reliability: 85,
     strategyFlexibility: 82,
-    teamName: 'Ferrari',
     budgetCapAdjusted: 165,
     budgetUsage: 0.98,
     budgetPenaltyRisk: 0.02,
