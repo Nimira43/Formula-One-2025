@@ -1,5 +1,5 @@
-import { drivers } from './data/driversData.js'
-
+// import { drivers } from './data/driversData.js'
+import { drivers } from './data/driver-data.js'
 class InputHandler {
   constructor() {
     this.keyState = {
@@ -83,7 +83,7 @@ class Enemy {
 
     this.element = document.createElement('div')
     this.element.className = 'enemy'
-    this.element.innerHTML = `<br>${driverData.car}`
+    this.element.innerHTML = `<br>${driverData.carNumber}`
     this.element.style.top = `${this.y}px`
     this.element.style.left = `${Math.floor(Math.random() * (container.offsetWidth - 50))}px`
     this.element.style.backgroundColor = driverData.colour
