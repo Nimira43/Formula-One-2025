@@ -17,6 +17,10 @@ class Car {
     this.height = 10 
     this.isPlayer = isPlayer 
     this.pathIndex = 0 
+    this.distance = 0
+    this.lap = 1
+    this.prevX = x
+    this.prevY = y
   }
 
   update(keys, path = []) {
