@@ -1,3 +1,5 @@
+import { InputHandler } from './InputHandler'
+
 // Driver metadata
 export interface DriverData {
   id: string
