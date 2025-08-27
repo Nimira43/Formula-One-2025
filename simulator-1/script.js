@@ -2,15 +2,16 @@ import { drivers } from './data/driver-data.js'
 import { renderSim2 } from './sim2.js'
 
 class InputHandler {
-  constructor() {
+  constructor(targetElement, driver) {
     this.keyState = {
       ArrowUp: false,
       ArrowDown: false,
       ArrowLeft: false,
       ArrowRight: false
     }
-
     this.enabled = true
+    this.driver = driver
+    this.element = targetElement
 
     document.addEventListener('keydown', e => {
       if (this.enabled && e.key in this.keyState) {
@@ -24,18 +25,11 @@ class InputHandler {
       }
     })
 
-    this.element.addEventListener('mouseenter', () => {
-      renderSim2(this.driver.id)
-    })
-  }
-
-  disable() {
-    this.enabled = false
-    Object.keys(this.keyState).forEach(key => this.keyState[key] = false)
-  }
-
-  enable() {
-    this.enabled = true
+    if (this.element) {
+      this.element.addEventListener('mouseenter', () => {
+        renderSim2(this.driver.id)
+      })
+    }
   }
 }
 
@@ -145,8 +139,6 @@ class Game {
     this.gameArea = document.querySelector('.game-area')
 
     this.player = null
-    this.input = new InputHandler()
-
     this.startScreen.addEventListener('click', () => this.start())
   }
 
@@ -162,9 +154,13 @@ class Game {
     const selectedDrivers = drivers.sort(() => 0.5 - Math.random()).slice(0, 7)
     this.enemies = selectedDrivers.map((driver, i) => new Enemy(driver, this.gameArea, i))
 
+    
+    this.input = new InputHandler(this.player.element, selectedDrivers[0])
     this.input.enable()
+
     requestAnimationFrame(() => this.loop())
   }
+
 
   loop() {
     const bounds = this.gameArea.getBoundingClientRect()

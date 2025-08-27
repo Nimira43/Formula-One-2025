@@ -12,6 +12,6 @@ export function renderSim2(driverId) {
       <p>Wet Weather: ${driver.wetWeather}</p>
       <p>Tyre Management: ${driver.tyreManagement}</p>
       <p>Reliability: ${driver.reliability}</p>
-    </div
+    </div>
   `
 }
